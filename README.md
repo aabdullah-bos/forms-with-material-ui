@@ -7,9 +7,12 @@ So I've been looking at multiple ways to create forms using Next.js, React and M
 3. Using Material-UI and react-hook-form.
 
 
-# Basic Form with Next.js, React and Material UI
+# Form with Next.js, React and Material UI Using <form> HTML element
 
-This version is the most straight forward, and hopefully needs no explanation.
+This version of using a form is a step in the right direction as all of the form data is now stored in a single object instead of multiple variables, but we don't gain much in the way of reusability. I would say that if reusability isn't a priority then this might be the best way to go and using react-hook-form might not give you that many advantages.
+
+This version was inspired by the blog post [here](https://onestepcode.com/creating-a-material-ui-form/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
