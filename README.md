@@ -1,3 +1,15 @@
+# Creating Forms with Next.js, React and Material UI
+
+So I've been looking at multiple ways to create forms using Next.js, React and Material UI. The simplest way is to just use `useState`, and event handlers. However, this means that you have to handle the processing of values from each individual component. Which in all honesty isn't that bad, however for the sake of clarity I'll try the following methods:
+
+1. No form elements just `useState` and event handlers
+2. Using a single event handler and the HTML form element
+3. Using Material-UI and react-hook-form.
+
+
+# Basic Form with Next.js, React and Material UI
+
+This version is the most straight forward, and hopefully needs no explanation.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
