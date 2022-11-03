@@ -7,9 +7,14 @@ So I've been looking at multiple ways to create forms using Next.js, React and M
 3. Using Material-UI and react-hook-form.
 
 
-# Form with Next.js, React and Material UI Using <form> HTML element
+# Form with Next.js, React, Material UI and react-form-hook
 
-This version of using a form is a step in the right direction as all of the form data is now stored in a single object instead of multiple variables, but we don't gain much in the way of reusability. I would say that if reusability isn't a priority then this might be the best way to go and using react-hook-form might not give you that many advantages.
+In order to use `react-hook-form` with the material ui, you need to use the `useForm` hook which can free you up from having to use the `form` HTML element. The downside is that you need to wrap `MUI` components in a Controller. This can be tough as you need to figure out how to pass properties to the wrapped component. I haven't been able to find a lot of documentation on this. The one way that I've found to pass in MUI component properties is to add optional parameters to the required `Controller` properties of:
+- `name`
+- `control`
+- `label`
+
+One thing that isn't clear to me is when it makes sense to use `useController`, `Controller`, `useFormContext`, `useFormState`, `FormProvider`.
 
 This version was inspired by the blog post [here](https://onestepcode.com/creating-a-material-ui-form/)
 

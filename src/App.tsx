@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import BasicMaterialUIForm from './components/form';
+import ReactHookMaterialUIForm from './components/form';
 
 function App() {
   return (
     <div className="App">
-      <BasicMaterialUIForm />
+      <ReactHookMaterialUIForm />
     </div>
   );
 }
